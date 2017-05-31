@@ -43,5 +43,5 @@ This project will simulate an auction service in which sellers can offer items a
     3.	FAILED (return value 3): If bidding is over and this Bidder did not win, or if the listing ID doesn't correspond to any Item submitted by the sellers. As part of its job, if the item being checked is no longer open and still appears on the list of items currently listed as active, this method will remove it from that list and update the appropriate locations to reflect that it is no longer being bid upon and also update the appropriate fields if it was successfully sold to anyone.
 
 ## The program also keeps track of two statistics for the AuctionServer’s sales:
-   a mutable integer called soldItemsCount (the total number of items that have been sold so far)
-   a mutable integer called revenue (the revenue generated so far) 
+   - a mutable integer called soldItemsCount (the total number of items that have been sold so far)
+   - a mutable integer called revenue (the revenue generated so far) 
